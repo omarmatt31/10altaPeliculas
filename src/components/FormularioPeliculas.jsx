@@ -1,10 +1,11 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Form, Button } from "react-bootstrap";
 import { useForm } from "react-hook-form"
 import GridPeliculas from "./GridPeliculas";
 
 const FormularioPeliculas = () => {
-    const [peliculas, setPeliculas]=useState([])
+    const peliculasLocalStorage = JSON.parse(localStorage.getItem('listaPeliculas')) || []
+    const [peliculas, setPeliculas]=useState(peliculasLocalStorage)
 
     const {
         register,
@@ -12,6 +13,11 @@ const FormularioPeliculas = () => {
         reset,
         formState: { errors },
     } = useForm()
+
+    useEffect(()=>{
+
+        localStorage.setItem('listaPeliculas', JSON.stringify(peliculas))
+        }, [peliculas])
 
     const agregarPelicula= (data)=>{
         setPeliculas([...peliculas, data])

@@ -1,12 +1,65 @@
-# React + Vite
+# 🎬 **Sistema de Gestión de Películas**  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Autor:** Omar Mattos ✨  
+Aplicación web para catalogar y gestionar tu colección de películas.  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌟 **Características principales**  
 
-## Expanding the ESLint configuration
+### 🎥 **Gestión de catálogo**  
+- 📝 Registrar películas (título, descripcion y género)  
+- 🏷️ Sistema de etiquetas personalizadas  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+### 💻 **Experiencia de usuario**  
+- 🎨 Diseño inspirado en plataformas streaming  
+- 📱 100% responsive (mobile-first)  
+
+---
+
+## 🛠️ **Stack tecnológico**  
+
+```plaintext
+Frontend:
+- HTML5 (semántico + nuevos input types)
+- CSS3 (Flexbox + Custom Properties)
+- JavaScript (Validación personalizada)
+- React
+```
+
+---
+
+## 🚀 **Cómo comenzar**  
+
+### Versión frontend standalone:  
+```bash
+git clone https://github.com/omarmatt31/10altaPeliculas.git
+npm install
+
+```
+
+### Con backend:  
+```bash
+npm run dev
+```
+
+---
+
+## 🎯 **Casos de uso**  
+
+1. **Coleccionistas** de películas físicas/digitales  
+2. **Cineclubes** para gestionar su programación  
+3. **Críticos** que necesitan organizar sus reseñas  
+4. **Desarrolladores** practicando con APIs reales  
+5. **Aficionados** que quieren descubrir nuevos films  
+
+---
+
+## 📜 **Licencia**  
+
+MIT License © 2023 [Omar Mattos](https://github.com/omarmatt31).  
+
+---
+
+**¡Tu videoteca personal en la web!** 🍿🎞️

@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Form, Button } from "react-bootstrap";
 import { useForm } from "react-hook-form"
+import GridPeliculas from "./GridPeliculas";
 
 const FormularioPeliculas = () => {
     const [peliculas, setPeliculas]=useState([])
@@ -54,6 +55,10 @@ const FormularioPeliculas = () => {
                         </Button>
                     </div>
                 </Form>
+            </section>
+            <section className="container p-0 my-0 rounded-3 w-75 mb-5">
+                <h4 className="text-center text-light">Peliculas Agregadas</h4>
+                <GridPeliculas></GridPeliculas>
             </section>
         </>
     );

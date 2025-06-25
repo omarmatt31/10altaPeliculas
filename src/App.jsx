@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <main>
-        <h1 className="text-center my-4">Alta de Peliculas</h1>
+        <h1 className="text-center my-4 text-light">Alta de Peliculas</h1>
         <FormularioPeliculas></FormularioPeliculas>
       </main>
       <footer className="bg-dark text-light text-center py-3">

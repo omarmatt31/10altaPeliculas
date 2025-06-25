@@ -58,7 +58,7 @@ const FormularioPeliculas = () => {
             </section>
             <section className="container p-0 my-0 rounded-3 w-75 mb-5">
                 <h4 className="text-center text-light">Peliculas Agregadas</h4>
-                <GridPeliculas></GridPeliculas>
+                <GridPeliculas peliculas={peliculas}></GridPeliculas>
             </section>
         </>
     );

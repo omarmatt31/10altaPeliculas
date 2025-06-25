@@ -8,8 +8,7 @@ const GridPeliculas = ({peliculas}) => {
         <Container className='px-5'>
             <Row className='d-flex justify-content-between'>
                 {
-                    <CardPelicula></CardPelicula>
-                    //peliculas.map((item, indice)=> <CardPelicula key={indice} pelicula={item}></CardPelicula>)
+                    peliculas.map((item, indice)=> <CardPelicula key={indice} pelicula={item}></CardPelicula>)
                 }             
             </Row>
         </Container>
